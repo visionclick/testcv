@@ -19,16 +19,16 @@ Hay que crear un pequeño sistema de comentarios, ahora mismo esta creado el **b
 
 ## Pasos
 
-* Descargar el respositorio completo testcv
+* Descargar el respositorio completo `testcv`
 * Importar la base datos sql que está en la raiz
 * Configurar los datos sql de coneccion en el archivo especificado anteriormente.
-* Acceso al administrador en directorio local o servirdor dominio.local/admin
-* Datos de acceso user: admin pass:admin
+* Acceso al administrador en directorio local o servirdor `dominio.local/admin`
+* Datos de acceso `user: admin pass:admin`
 * Completar el controlador comentarios
-* Completar las vistas gestion y listado de la carpeta /views/admin/comentarios
+* Completar las vistas gestion y listado de la carpeta `/views/admin/comentarios`
 * Crear dos o 3 comentarios de ejemplos.
-* Mostrar los comentarios realacionado con la noticia  en el front end de la vista noticia.php
-* Hacer que el formulario funcione en la vista noticia.php para comentar directamente desde la vista del comentario.
+* Mostrar los comentarios realacionado con la noticia  en el front end de la vista `noticia.php`
+* Hacer que el formulario funcione en la vista `noticia.php` para comentar directamente desde la vista del comentario.
 
 ## Tutoriales
 
