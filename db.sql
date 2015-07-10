@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.0.10.1
+-- version 4.1.14
 -- http://www.phpmyadmin.net
 --
--- Servidor: localhost
--- Tiempo de generación: 10-07-2015 a las 11:36:50
--- Versión del servidor: 5.5.41-MariaDB
--- Versión de PHP: 5.4.16
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 10-07-2015 a las 13:06:45
+-- Versión del servidor: 5.6.17
+-- Versión de PHP: 5.5.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Base de datos: `vision_testcv`
+-- Base de datos: `testcv`
 --
 
 -- --------------------------------------------------------
@@ -140,7 +140,8 @@ CREATE TABLE IF NOT EXISTS `logs` (
 
 INSERT INTO `logs` (`id`, `created`, `mensaje`, `ip`, `useragent`) VALUES
 (0, '2015-07-09 11:02:35', 'Acceso correcto de admin al panel de control.', '192.168.1.54', 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36'),
-(0, '2015-07-10 06:35:36', 'Acceso correcto de admin al panel de control.', '192.168.1.54', 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36');
+(0, '2015-07-10 06:35:36', 'Acceso correcto de admin al panel de control.', '192.168.1.54', 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36'),
+(0, '2015-07-10 11:04:40', 'Acceso correcto de admin al panel de control.', '127.0.0.1', 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36');
 
 -- --------------------------------------------------------
 
@@ -261,54 +262,54 @@ CREATE TABLE IF NOT EXISTS `privilegios_usuarios` (
   `privilegio_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `usuario_id` (`usuario_id`,`privilegio_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=931 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=972 ;
 
 --
 -- Volcado de datos para la tabla `privilegios_usuarios`
 --
 
 INSERT INTO `privilegios_usuarios` (`id`, `usuario_id`, `privilegio_id`) VALUES
-(916, 1, 27),
-(915, 1, 26),
-(918, 1, 29),
-(917, 1, 28),
-(922, 1, 33),
-(921, 1, 32),
-(920, 1, 31),
-(919, 1, 30),
-(912, 1, 23),
-(913, 1, 24),
-(911, 1, 22),
-(914, 1, 25),
-(910, 1, 21),
-(909, 1, 20),
-(908, 1, 19),
-(907, 1, 18),
-(906, 1, 17),
-(905, 1, 16),
-(904, 1, 15),
-(903, 1, 14),
-(902, 1, 13),
-(923, 1, 34),
-(901, 1, 12),
-(900, 1, 11),
-(924, 1, 35),
-(899, 1, 10),
-(925, 1, 36),
-(927, 1, 38),
-(926, 1, 37),
-(898, 1, 9),
-(897, 1, 8),
-(896, 1, 7),
-(928, 1, 40),
-(929, 1, 41),
-(895, 1, 6),
-(930, 1, 42),
-(894, 1, 5),
-(893, 1, 4),
-(892, 1, 3),
-(891, 1, 2),
-(890, 1, 1);
+(945, 1, 15),
+(946, 1, 16),
+(943, 1, 13),
+(944, 1, 14),
+(939, 1, 9),
+(940, 1, 10),
+(941, 1, 11),
+(942, 1, 12),
+(949, 1, 19),
+(948, 1, 18),
+(950, 1, 20),
+(947, 1, 17),
+(951, 1, 21),
+(952, 1, 22),
+(953, 1, 23),
+(954, 1, 24),
+(955, 1, 25),
+(956, 1, 26),
+(957, 1, 27),
+(958, 1, 28),
+(959, 1, 29),
+(938, 1, 8),
+(960, 1, 30),
+(961, 1, 31),
+(937, 1, 7),
+(962, 1, 32),
+(936, 1, 6),
+(934, 1, 4),
+(935, 1, 5),
+(963, 1, 33),
+(964, 1, 34),
+(965, 1, 35),
+(933, 1, 3),
+(932, 1, 2),
+(966, 1, 36),
+(931, 1, 1),
+(967, 1, 37),
+(968, 1, 38),
+(969, 1, 40),
+(970, 1, 41),
+(971, 1, 42);
 
 -- --------------------------------------------------------
 
@@ -330,7 +331,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `usuario`, `password`, `email`, `extra`) VALUES
-(1, 'admin', 'mrOicAO/4Yrzo', 'josecarlos@visionclick.es', 'Cuenta por defecto.');
+(1, 'admin', 'mrpCT7c/rzDf2', 'josecarlos@visionclick.es', 'Cuenta por defecto.');
 
 -- --------------------------------------------------------
 
