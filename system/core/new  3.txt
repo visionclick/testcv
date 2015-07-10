@@ -1,0 +1,25 @@
+Tecnomodular empresa de mamparas especialistas en Fabricación y Instalación de Mamparas. Mamparas de Oficina | Redistribución de Espacios Comerciales | Equipamientos de Interior.
+
+Contacto con Tecnomodular. Empresa de Instalaciones y Fabricación de Mamparas de Oficinas.
+
+
+
+
+INSERT INTO `seo` (`id`, `controlador`, `url`, `h1`, `title`, `description`, `keywords`) VALUES
+(1, '', 'portada', 'Tecnomodular empresa de mamparas especialistas en Fabricación y Instalación de Mamparas.  Mamparas de Oficina | Redistribución de Espacios Comerciales | Equipamientos de Interior.', 'Mamparas de oficina. Tecnomodular', 'Mamparas de oficina. Tecnomodular le ofrece todo un mundo de posicibilidades dentro de la decoración de oficinas. Más de 20 años de experiencia en el sector.', 'Tecnomodular, oficinas modulares, división modular de oficinas,tabiques modulares de oficina, tabiques de oficina, tabique armario, montaje de tabiques modulares, mamparas para oficina, mamparas divisorias de oficina, mamparas de oficina'),
+(2, '', 'portada', '', '', '', ''),
+(3, '', 'portada', '', '', '', ''),
+(4, '', 'portada', '', '', '', ''),
+(5, '', 'portada', '', '', '', ''),
+(6, '', 'contacto', 'Contacto con Tecnomodular. Empresa de Instalaciones y Fabricación de Mamparas de Oficinas.', 'Empresa de Instalaciones y Fabricación de Mamparas de Oficinas. Contacto Tecnomodular.com', 'Contacto con Tecnomodular. Empresa de Instalaciones y Fabricación de Mamparas de Oficinas.', ''),
+(7, '', 'contacto', '', '', '', ''),
+(8, '', 'contacto', '', '', '', ''),
+(9, '', 'contacto', '', '', '', ''),
+(10, '', 'contacto', '', '', '', '');
+
+
+TECNO-MODULAR le agradece su visita a nuestra Página Web. Si desea más información sobre cualquiera de nuestros productos rellene el formulario adjunto y en breve contactaremos con Ud.
+
+Si desea enviarnos un documento adjunto, puede hacerlo directamente a nuestra dirección de email: tecnomodular@tecnomodular.com
+
+Muchas Gracias. Los campos marcados con un asterísco (*) son obligatorios:
