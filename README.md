@@ -8,15 +8,16 @@ Hay que crear un pequeño sistema de comentarios, ahora mismo esta creado el **b
 
 * [Codeigniter](http://www.codeigniter.com/userguide2/)
 * [Datamapper](http://datamapper.wanwizard.eu/) 
-* La base de datos a importar se ecuentra en la raiz con el nombre bd.sql
-* La configuración en la carpeta /application/config/config.php para configuración y para la base de datos en /application/config/database.php
-* los modelos se ecuentrar en la caperta  /application/models/ el modelo comentario.php se encuentra comentado
-* los vontroladores  en la carpeta  /application/controller/
-* las vista en la carpeta application/views/ para el front y para el admin /application/views/admin/
-* las funciones extras para aplicar al proyecto /application/helpers/util_helper.php
+* La base de datos a importar se ecuentra en la raiz con el nombre `bd.sql`
+* La configuración en la carpeta `/application/config/config.php` para configuración y para la base de datos en `/application/config/database.php`
+* los modelos se ecuentrar en la caperta  `/application/models`/ el modelo `comentario.php` se encuentra comentado
+* los vontroladores  en la carpeta  `/application/controller/`
+* las vista en la carpeta application/views/ para el front y para el admin `/application/views/admin/`
+* las funciones extras para aplicar al proyecto `/application/helpers/util_helper.php`
 * 
 ## Pasos
 
+* Descargar el respositorio completo testcv
 * Importar la base datos sql que está en la raiz
 * Configurar los datos sql de coneccion en el archivo especificado anteriormente.
 * Acceso al administrador en directorio local o servirdor dominio.local/admin
