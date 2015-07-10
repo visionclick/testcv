@@ -19,7 +19,6 @@ Set appropriate values on both **config/testing/database.php** and phpunit confi
 
 Gas ORM is well-tested and the latest build status could be found on the top of this document.
 
-[![][FlattrButton]][FlattrLink] 
 
 [FlattrLink]: https://flattr.com/submit/auto?user_id=toopay&url=https://github.com/toopay/gas-orm&title=Gas%20ORM&language=en_GB&tags=codeigniter%20orm&category=software
 [FlattrButton]: http://api.flattr.com/button/button-static-50x60.png
