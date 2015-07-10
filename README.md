@@ -14,7 +14,9 @@ Hay que crear un pequeño sistema de comentarios, ahora mismo esta creado el **b
 * los vontroladores  en la carpeta  `/application/controller/`
 * las vista en la carpeta application/views/ para el front y para el admin `/application/views/admin/`
 * las funciones extras para aplicar al proyecto `/application/helpers/util_helper.php`
-* 
+* la vista del menu del administrador se encuentra en `/application/views/admin/menu_admin.php`
+
+
 ## Pasos
 
 * Descargar el respositorio completo testcv
@@ -22,6 +24,11 @@ Hay que crear un pequeño sistema de comentarios, ahora mismo esta creado el **b
 * Configurar los datos sql de coneccion en el archivo especificado anteriormente.
 * Acceso al administrador en directorio local o servirdor dominio.local/admin
 * Datos de acceso user: admin pass:admin
+* Completar el controlador comentarios
+* Completar las vistas gestion y listado de la carpeta /views/admin/comentarios
+* Crear dos o 3 comentarios de ejemplos.
+* Mostrar los comentarios realacionado con la noticia  en el front end de la vista noticia.php
+* Hacer que el formulario funciona de la vista noticia.php para comentar directamente desde la vista del comentario.
 
 ## Tutoriales
 
