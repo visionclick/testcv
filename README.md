@@ -2,7 +2,7 @@
 
 Holas,
 
-Hay que crear un pequeño sistema de comentarios, ahora mismo esta creado el back end y front end de las noticias y tambien el modelo del comentario, ya que el modelo esta con Datamapper. La pureba consiste es que cuando accedes a la noticia hay un formulario en html que hay que completar para enviar a la base de datos el comentario y luego mostrarlo tango Back End o Administrador(tanto el listado como la edición del comentario) y tambien en la misma pagina de la noticia que ahora mismo esta todo maquetado, solamente habría que hacer una llamada en el controlador de la noticia y hacer un `foreach` en la plantilla.
+Hay que crear un pequeño sistema de comentarios, ahora mismo esta creado el back end y front end de las noticias y tambien el modelo del comentario, ya que el modelo esta con Datamapper. La pureba consiste es que cuando accedes a la noticia hay un formulario en html que hay que completar para enviar por POST a la tabla comentario y ralacionarlo con la noticia y igualmente luego mostrar el listado y edición del comentario en el administrador y tambien en la misma pagina de la noticia que ahora mismo esta todo maquetado, solamente habría que hacer una llamada en el controlador de la noticia y hacer un `foreach` en la plantilla.
 
 ## Documentarion
 
@@ -15,6 +15,12 @@ Hay que crear un pequeño sistema de comentarios, ahora mismo esta creado el bac
 * las vista en la carpeta application/views/ para el front y para el admin /application/views/admin/
 * las funciones extras para aplicar al proyecto /application/helpers/util_helper.php
 * 
+## Pasos
+
+* Importar la base datos sql que está en la raiz
+* Configurar los datos sql de coneccion en el archivo especificado anteriormente.
+* Acceso al administrador en directorio local o servirdor dominio.local/admin
+* Datos de acceso user: admin pass:admin
 
 ## Tutoriales
 
