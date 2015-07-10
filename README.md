@@ -1,11 +1,17 @@
 # Prueba para el puesto de trabajo en Vision Click
 
-A lighweight and easy-to-use ORM for CodeIgniter. Gas was built specifically for CodeIgniter app. It uses CodeIgniter Database packages, a powerful DBAL which support numerous DB drivers. Gas ORM provide a set of methods that will map your database tables and its relationship, into accesible object.
+Holas, 
+Hay que crear un pequeño sistema de comentarios, ahora mismo esta creado el back end y front end de las noticias y tambien el modelo del comentario, ya que el modelo esta con Datamapper. La Realización es que cuando accedes a la noticia hay un formulario en html que hay que completar para enviar a la base de datos y luego mostrarlo tango Back End o Administrador y tambien en la misma pagina de la noticia que ahora mismo esta todo maquetado, solamente habría que hacer una llamada en controladro noticia y hacer un `foreach` en la plantilla.
 
-## Requirement
+## Documentarion
 
-* PHP >= v.5.3
-* CodeIgniter v.2.x.x
+* [Codeigniter](http://www.codeigniter.com/userguide2/)
+* [Datamapper](http://datamapper.wanwizard.eu/) 
+
+## Tutoriales
+
+* (http://www.mediavida.com/foro/dev/datamapper-object-relational-mapper-codeigniter-406894)
+* (http://uno-de-piera.com/datamapper-un-orm-para-codeigniter/)
 
 ## Documentation and Examples
 
