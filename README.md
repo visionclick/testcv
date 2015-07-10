@@ -4,14 +4,14 @@ Buenas,
 
 Hay que realizar un pequeño sistema de comentarios con CodeIgniter, ahora mismo está creado el **back end y front end** de las noticias y tambien el modelo del **comentario**, el cual está implementado con *Datamapper*. La prueba consiste en que cuando accedes a la noticia hay un formulario en *html* que hay que completar para enviar por *POST* e insertar en la tabla comentario y ralacionarlo con la noticia, e igualmente luego mostrar el listado y edición del comentario en el administrador y en la misma pagina de la noticia. Ahora mismo esta todo maquetado, solamente habría que hacer una llamada en el controlador de la noticia y hacer un `foreach` en la plantilla para mostrar los comentarios relacionado con la noticia.
 
-## Documentarion
+## Documentacion
 
 * [Codeigniter](http://www.codeigniter.com/userguide2/)
 * [Datamapper](http://datamapper.wanwizard.eu/) 
 * La base de datos a importar se ecuentra en la raiz con el nombre `bd.sql`
 * La configuración en la carpeta `/application/config/config.php` para configuración y para la base de datos en `/application/config/database.php`
 * los modelos se ecuentrar en la caperta  `/application/models`/ el modelo `comentario.php` se encuentra comentado
-* los vontroladores  en la carpeta  `/application/controller/`
+* los controladores  en la carpeta  `/application/controller/`
 * las vista en la carpeta application/views/ para el front y para el admin `/application/views/admin/`
 * las funciones extras para aplicar al proyecto `/application/helpers/util_helper.php`
 * la vista del menu del administrador se encuentra en `/application/views/admin/menu_admin.php`
@@ -21,7 +21,7 @@ Hay que realizar un pequeño sistema de comentarios con CodeIgniter, ahora mismo
 
 * Descargar el respositorio completo `testcv`
 * Importar la base datos sql que está en la raiz
-* Configurar los datos sql de coneccion en el archivo especificado anteriormente.
+* Configurar los datos sql de coneccion en el archivo `/application/config/database.php`.
 * Acceso al administrador en directorio local o servidor `dominio.local/admin`
 * Datos de acceso `user: admin pass:admin`
 * Completar el controlador comentarios
