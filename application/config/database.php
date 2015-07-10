@@ -48,19 +48,19 @@
 $active_group = 'localhost';
 $active_record = TRUE;
 
-$db['localhost']['hostname'] 	= 'localhost'; 
-$db['localhost']['username'] 		= 'vision';
-$db['localhost']['password'] 		= 'Tedacuen2014';
-$db['localhost']['database'] 		= 'vision_testcv';
+$db['localhost']['hostname'] 	    = 'localhost'; 
+$db['localhost']['username'] 		= 'root';
+$db['localhost']['password'] 		= '';
+$db['localhost']['database'] 		= 'testcv';
 $db['localhost']['dbdriver'] 		= 'mysql';
 $db['localhost']['dbprefix'] 		= '';
 $db['localhost']['pconnect'] 		= TRUE;
-$db['localhost']['db_debug'] 	= TRUE;
+$db['localhost']['db_debug'] 	    = TRUE;
 $db['localhost']['cache_on'] 		= FALSE;
 $db['localhost']['cachedir'] 		= '';
 $db['localhost']['char_set'] 		= 'utf8';
 $db['localhost']['dbcollat'] 		= 'utf8_general_ci';
-$db['localhost']['swap_pre'] 	= '';
+$db['localhost']['swap_pre'] 	    = '';
 $db['localhost']['autoinit'] 		= TRUE;
 $db['localhost']['stricton'] 		= FALSE;
 

@@ -19,7 +19,7 @@ class Noticias extends MY_AdminController {
 			
 			redirect('admin/inicio');
 	}
-	public function listado($paginaActual = 0,$porpagina = 50){
+	public function listado(){
 
 
 		$noticiasLista = new Noticia();

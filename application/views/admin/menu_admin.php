@@ -15,6 +15,17 @@
 
 	</ul>
 </li>
+
+<li> 
+	<a href="#" class="nav-top-item <?=(($menuActual=='comentarios') ? 'current' : '')?>"> <!-- Add the class "current" to current menu item -->
+		Comentarios
+	</a>
+	<ul>
+		<li><a href="<?=site_url('admin/comentarios/edicion') ?>">Escribir nueva noticia</a></li>
+		<li><a href="<?=site_url('admin/comentarios/listado') ?>">Gestionar noticias</a></li>
+
+	</ul>
+</li>
 <?if (isset($privilegios['usuarios'])){?>
 <li>
 	<a href="#" class="nav-top-item <?=($menuActual=='usuarios' ? 'current' : '')?>">
