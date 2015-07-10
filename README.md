@@ -1,8 +1,8 @@
 # Prueba para el puesto de trabajo en Vision Click
 
-Holas,
+Buenas,
 
-Hay que crear un pequeño sistema de comentarios, ahora mismo esta creado el **back end y front end** de las noticias y tambien el modelo del **comentario**, ya que el modelo esta con *Datamapper*. La prueba consiste es que cuando accedes a la noticia hay un formulario en *html* que hay que completar para enviar por *POST* a la tabla comentario y ralacionarlo con la noticia y igualmente luego mostrar el listado y edición del comentario en el administrador y tambien en la misma pagina de la noticia que ahora mismo esta todo maquetado, solamente habría que hacer una llamada en el controlador de la noticia y hacer un `foreach` en la plantilla para mostrar los comentarios relacionado con la noticia.
+Hay que realizar un pequeño sistema de comentarios con CodeIgniter, ahora mismo está creado el **back end y front end** de las noticias y tambien el modelo del **comentario**, el cual está implementado con *Datamapper*. La prueba consiste en que cuando accedes a la noticia hay un formulario en *html* que hay que completar para enviar por *POST* e insertar en la tabla comentario y ralacionarlo con la noticia, e igualmente luego mostrar el listado y edición del comentario en el administrador y en la misma pagina de la noticia. Ahora mismo esta todo maquetado, solamente habría que hacer una llamada en el controlador de la noticia y hacer un `foreach` en la plantilla para mostrar los comentarios relacionado con la noticia.
 
 ## Documentarion
 
@@ -22,13 +22,18 @@ Hay que crear un pequeño sistema de comentarios, ahora mismo esta creado el **b
 * Descargar el respositorio completo `testcv`
 * Importar la base datos sql que está en la raiz
 * Configurar los datos sql de coneccion en el archivo especificado anteriormente.
-* Acceso al administrador en directorio local o servirdor `dominio.local/admin`
+* Acceso al administrador en directorio local o servidor `dominio.local/admin`
 * Datos de acceso `user: admin pass:admin`
 * Completar el controlador comentarios
-* Completar las vistas gestion y listado de la carpeta `/views/admin/comentarios`
+* Completar las vistas de gestion y listado de la carpeta `/views/admin/comentarios`
 * Crear dos o 3 comentarios de ejemplos.
 * Mostrar los comentarios realacionado con la noticia  en el front end de la vista `noticia.php`
 * Hacer que el formulario funcione en la vista `noticia.php` para comentar directamente desde la vista del comentario.
+
+## Entrega
+* Una vez finalizado todo, comprimir los ficheros y exportar la base de datos en en formato .sql y enviar a josecarlos@visionclick.es
+* Fecha límite de entrega: 14 de Julio a las 12:00 h.
+* Para cualquier duda con la entrega o la realización consultar por email a josecarlos@visionclick.es
 
 ## Tutoriales
 
