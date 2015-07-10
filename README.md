@@ -2,7 +2,7 @@
 
 Holas,
 
-Hay que crear un pequeño sistema de comentarios, ahora mismo esta creado el back end y front end de las noticias y tambien el modelo del comentario, ya que el modelo esta con Datamapper. La prueba consiste es que cuando accedes a la noticia hay un formulario en html que hay que completar para enviar por POST a la tabla comentario y ralacionarlo con la noticia y igualmente luego mostrar el listado y edición del comentario en el administrador y tambien en la misma pagina de la noticia que ahora mismo esta todo maquetado, solamente habría que hacer una llamada en el controlador de la noticia y hacer un `foreach` en la plantilla para mostrar los comentarios relacionado con la noticia.
+Hay que crear un pequeño sistema de comentarios, ahora mismo esta creado el **back end y front end** de las noticias y tambien el modelo del **comentario**, ya que el modelo esta con Datamapper. La prueba consiste es que cuando accedes a la noticia hay un formulario en html que hay que completar para enviar por POST a la tabla comentario y ralacionarlo con la noticia y igualmente luego mostrar el listado y edición del comentario en el administrador y tambien en la misma pagina de la noticia que ahora mismo esta todo maquetado, solamente habría que hacer una llamada en el controlador de la noticia y hacer un `foreach` en la plantilla para mostrar los comentarios relacionado con la noticia.
 
 ## Documentarion
 
