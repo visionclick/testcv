@@ -28,7 +28,7 @@ Hay que crear un pequeño sistema de comentarios, ahora mismo esta creado el **b
 * Completar las vistas gestion y listado de la carpeta /views/admin/comentarios
 * Crear dos o 3 comentarios de ejemplos.
 * Mostrar los comentarios realacionado con la noticia  en el front end de la vista noticia.php
-* Hacer que el formulario funciona de la vista noticia.php para comentar directamente desde la vista del comentario.
+* Hacer que el formulario funcione en la vista noticia.php para comentar directamente desde la vista del comentario.
 
 ## Tutoriales
 
